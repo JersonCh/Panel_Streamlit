@@ -9,7 +9,7 @@ data = pd.read_csv("vehicles.csv")
 data.columns = data.columns.str.lower()
 
 # Título del Dashboard
-st.title("Análisis de Economía de Combustible de Vehículos (EPA 1984–2017)")
+st.title("Análisis de Economía de Combustible de Vehículos 2 (EPA 1984–2017)")
 
 # Descripción del dataset
 st.write("Este conjunto de datos contiene información sobre vehículos, incluyendo consumo de combustible, emisiones de CO₂ y más.")
